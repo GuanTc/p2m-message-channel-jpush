@@ -1,0 +1,15 @@
+{
+  "name": "p2m-message-channel-jpush",
+  "version": "1.0.0",
+  "description": "A channel for P2M message service that use JPush api to communication with client side.",
+  "main": "message-service-jpush.js",
+  "repository": "https://github.com/colin-han/p2m-message-channel-jpush.git",
+  "author": "Colin Han <biz@colinhan.info>",
+  "license": "MIT",
+  "dependencies": {
+    "co": "^4.6.0",
+    "config": "^1.25.1",
+    "jpush-sdk": "^3.3.7",
+    "p2m-common-logger": "^1.0.0"
+  }
+}
