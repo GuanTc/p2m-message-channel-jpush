@@ -4,7 +4,7 @@
     "message-channel-jpush"
   ],
   "name": "p2m-message-channel-jpush",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A channel for P2M message service that use JPush api to communication with client side.",
   "main": "main/message-channel-jpush.js",
   "repository": "https://github.com/colin-han/p2m-message-channel-jpush.git",
