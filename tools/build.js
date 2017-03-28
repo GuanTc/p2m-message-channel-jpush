@@ -62,7 +62,7 @@ for (const file of files) {
       dest: `build/${file.output || 'main'}/${entry}${file.ext}`,
       format: file.format,
       sourceMap: !file.minify,
-      exports: 'named',
+      exports: 'default',
       moduleName: file.moduleName,
     })));
   }
